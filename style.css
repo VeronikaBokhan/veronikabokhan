@@ -10,29 +10,76 @@ div.myname {
   background-color: rgb(217, 71, 185, 0.8);
   margin-top: 20px;
   margin-bottom: 40px;
+  grid-area: 1 / 1 / 2 / 3;
 }
-
-.container {
+.containerimgt {
+  display: grid;
+  grid-template-columns: repeat(2, 1.6 fr);
+  grid-template-rows: repeat 0.5fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+div.myimg {
+  position: relative;
+  bottom: 50px;
+  padding-top: 40px;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.containertext {
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   font-size: 23px;
   border: none;
   background-color: rgb(255, 255, 255, 0.8);
+  grid-area: 2 / 2 / 3 / 3;
+  position: relative;
+  bottom: 30px;
 }
-.t1 {
-  margin-left: 370px;
-  padding: 10px 20px;
-  margin-top: -530px;
-}
-.t2 {
-  margin-top: -10px;
-  margin-left: 370px;
-  padding: 20px;
-}
+.t1,
+.t2,
 .t3 {
-  margin-top: -10px;
-  margin-left: 370px;
   padding: 20px;
+}
+.textfor3img {
+  font-size: 50px;
+  background-color: rgb(217, 71, 185, 0.8);
+  text-align: center;
+}
+.fItaly {
+  margin-top: 30px;
+  border-radius: 100%;
+}
+.fshv {
+  margin-top: 30px;
+  border-radius: 100%;
+}
+.fnor {
+  margin-top: 30px;
+  border-radius: 100%;
+}
+div.countryconteiner {
+  display: flex;
+  justify-content: space-around;
+}
+.fItaly img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.fshv img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.fnor img:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.textItaly,
+.textfshv,
+.textfnor {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 40px;
 }
 table {
   background-color: rgba(222, 158, 211, 0.9);
