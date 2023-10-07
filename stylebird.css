@@ -1,0 +1,43 @@
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614773111_221-p-nezhnii-fon-dlya-saita-248.jpg);
+  background-attachment: fixed;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.3fr 1fr 0.3fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+}
+
+.namebird {
+  grid-area: 1 / 1 / 2 / 4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  background-color: rgb(217, 71, 185, 0.8);
+  padding: 50px;
+  border-radius: 40%;
+}
+.imgbird {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-top: 20px;
+}
+.textbird {
+  grid-area: 3 / 1 / 4 / 4;
+  font-size: 30px;
+  border: none;
+  background-color: rgb(255, 255, 255, 0.8);
+  text-align: justify;
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-top: 20px;
+  padding-right: 15px;
+  text-shadow: 0 0 15px #999;
+  color: transparent;
+  transition: all 0.5s;
+}
+.textbird:hover {
+  text-shadow: 0 0 0 #333;
+}
