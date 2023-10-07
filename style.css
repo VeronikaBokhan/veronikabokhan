@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614773111_221-p-nezhnii-fon-dlya-saita-248.jpg);
+  background-attachment: fixed;
+}
+
+div.myname {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 90px;
+  text-align: center;
+  background-color: rgb(217, 71, 185, 0.8);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.container {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  border: none;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.t1 {
+  margin-left: 370px;
+  padding: 10px 20px;
+  margin-top: -530px;
+}
+.t2 {
+  margin-top: -10px;
+  margin-left: 370px;
+  padding: 20px;
+}
+.t3 {
+  margin-top: -10px;
+  margin-left: 370px;
+  padding: 20px;
+}
+table {
+  background-color: rgba(222, 158, 211, 0.9);
+}
+hr {
+  margin-top: 50px;
+  background-color: rgb(68, 40, 181);
+  height: 8px;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(217, 71, 185, 0.8);
+  padding: 30px;
+  border-radius: 40%;
+  border: 7px solid black;
+  margin-top: 90px;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(217, 71, 185, 0.8);
+  font-weight: 500;
+}
+form p {
+  font-size: 20px;
+}
+.t4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.flex-formend {
+  display: flex;
+  border: none;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding-left: 40px;
+  padding-bottom: 20px;
+  margin: 10px 10px 50px 10px;
+  justify-content: center;
+}
